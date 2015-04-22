@@ -1,0 +1,26 @@
+{
+  "name": "community-referrals",
+  "version": "0.0.1",
+  "description": "Tiny app rotating community referrals link for different services",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ashfame/community-referrals"
+  },
+  "keywords": [
+    "referral",
+    "affiliate"
+  ],
+  "author": "Ashfame <mail@ashfame.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ashfame/community-referrals/issues"
+  },
+  "homepage": "https://github.com/ashfame/community-referrals",
+  "dependencies": {
+    "express": "^4.12.3"
+  }
+}
