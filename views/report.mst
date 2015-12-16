@@ -1,0 +1,26 @@
+<html>
+<head>
+</head>
+<body>
+   <h1>Community Referral Links</h1>
+   <h2>Report</h2>
+   <table>
+       <tr>
+           <th>Username</th>
+           {{#services}}
+           <th>{{.}}</th>
+           {{/services}}
+       </tr>
+       {{#report}}
+       <tr>
+           {{#username}}
+           <td>{{.}}</td>
+           {{/username}}
+           {{#hits}}
+           <td>{{.}}</td>
+           {{/hits}}
+       </tr>
+        {{/report}}
+   </table>
+</body>
+</html>

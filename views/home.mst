@@ -1,0 +1,12 @@
+ <html>
+ <head>
+ </head>
+ <body>
+    <h1>Community Referral Links</h1>
+    <ul>
+        {{#services}}
+        <li><a href="/to/{{.}}">{{.}}</a></li>
+        {{/services}}
+     </ul>
+ </body>
+ </html>

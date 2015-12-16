@@ -21,6 +21,8 @@
   },
   "homepage": "https://github.com/ashfame/community-referrals",
   "dependencies": {
-    "express": "^4.12.3"
+    "express": "^4.12.3",
+    "mustache": "^2.2.1",
+    "nedb": "^1.5.0"
   }
 }
